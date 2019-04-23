@@ -13,4 +13,4 @@ def is_multiple(n, m):
 n = int(raw_input("Enter an integer:\n"))
 m = int(raw_input("Enter an integer:\n"))
 
-print is_multiple(n,m)
+print is_multiple(n, m)
