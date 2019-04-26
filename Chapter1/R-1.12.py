@@ -6,3 +6,12 @@
 # function, that return a random choice from the given range. Using only the
 # randrange function, implement your own version of the choice function.
 
+# Hint: Use randrange to pick the index of the chosen element.
+
+from random import randrange
+
+def choiceFunction(data):
+  return data[randrange(len(data))]
+
+print(choiceFunction([1, 2, 3, 4, 5]))
+
