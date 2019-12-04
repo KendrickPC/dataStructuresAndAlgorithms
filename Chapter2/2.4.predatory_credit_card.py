@@ -66,3 +66,5 @@ class PredatoryCreditCard(CreditCard):
         if self._balance > 0:
             monthly_factor = pow(1 + self._apr, 1/12)
             self._balance *= monthly_factor
+
+
